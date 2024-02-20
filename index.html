@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário com validação de email e senha</title>
+    <link rel="stylesheet" href="index.css" />
+    <link
+      rel="shortcut icon"
+      href="./favicon formulario.webp"
+      type="FaviconFormularioImagem"
+    />
+  </head>
+  <body>
+    <section>
+      <h1>Registre-se para usar o nosso aplicativo!</h1>
+      <form action="">
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" />
+        <span id="name-error"></span>
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" />
+        <span id="email-error"></span>
+        <label for="password">Senha</label>
+        <input type="password" name="password" id="password" />
+        <span id="password-error"></span>
+        <br />
+        <button type="submit">Registrar</button>
+      </form>
+    </section>
+    <script src="./index.js"></script>
+  </body>
+</html>
