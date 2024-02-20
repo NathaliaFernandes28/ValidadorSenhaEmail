@@ -15,6 +15,7 @@ de tratamentos de erro do javaScript avançado.
 
 ## Instalação
 * Clone este repositório
+  https://nathaliafernandes28.github.io/ValidadorSenhaEmail/
   
 ## Como usar
 Clone o repositório do projeto, abra o projeto com o VsCode. Com ele aberto, abra também o terminal, entre na pasta do seu projeto e digite o seguinte comando: node index.js. Feito isso, o terminal vai retornar o resultado de toda a aplicação em formato de tabela.
